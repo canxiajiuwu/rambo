@@ -1,14 +1,26 @@
 {
   "name": "rambo-cli",
-  "version": "1.0.0",
-  "description": "gamemania web cli",
+  "version": "1.0.1",
+  "description": "build a cli for vue",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Terry Tang",
-  "license": "ISC",
   "bin": {
-    "gm": "index.js"
-  }
+    "rambo": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canxiajiuwu/rambo.git"
+  },
+  "keywords": [
+    "vue",
+    "cli"
+  ],
+  "author": "TerryTang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canxiajiuwu/rambo/issues"
+  },
+  "homepage": "https://github.com/canxiajiuwu/rambo#readme"
 }
