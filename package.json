@@ -1,6 +1,6 @@
 {
   "name": "rambo-cli",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "build a cli for vue",
   "main": "index.js",
   "scripts": {
@@ -22,5 +22,14 @@
   "bugs": {
     "url": "https://github.com/canxiajiuwu/rambo/issues"
   },
-  "homepage": "https://github.com/canxiajiuwu/rambo#readme"
+  "homepage": "https://github.com/canxiajiuwu/rambo#readme",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "fs": "0.0.1-security",
+    "log-symbols": "^3.0.0",
+    "ora": "^4.0.3",
+    "shelljs": "^0.8.3"
+  }
 }
